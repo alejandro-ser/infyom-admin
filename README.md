@@ -1,4 +1,4 @@
-# InfyOm Admin - Test proyect
+# InfyOm Admin - Proyecto de prueba
 
 Proyecto con fines de prueba creado siguiendo la [documentación de InfyOm](https://labs.infyom.com/laravelgenerator/docs/7.0/installation)
 
@@ -56,14 +56,14 @@ _Contraseña por defecto:_ **12345678**
 
 ## Librerías usadas
 
-`"infyomlabs/laravel-generator": "7.0.x-dev",
-"laravelcollective/html": "^6.1",
-"infyomlabs/adminlte-templates": "7.0.x-dev",
-"doctrine/dbal": "~2.10.2",
-"laravel/ui": "^2.0",
-"yajra/laravel-datatables-buttons": "^4.9.1",
-"yajra/laravel-datatables-html": "^4.27",
-"yajra/laravel-datatables-oracle": "~9.10"`
+`"infyomlabs/laravel-generator": "7.0.x-dev",`  
+`"laravelcollective/html": "^6.1",`  
+`"infyomlabs/adminlte-templates": "7.0.x-dev",`  
+`"doctrine/dbal": "~2.10.2",`  
+`"laravel/ui": "^2.0",`  
+`"yajra/laravel-datatables-buttons": "^4.9.1",`  
+`"yajra/laravel-datatables-html": "^4.27",`  
+`"yajra/laravel-datatables-oracle": "~9.10"`
 
 ## Licencia
 
