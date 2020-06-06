@@ -8,12 +8,9 @@ use Illuminate\Support\Facades\Hash;
 
 $factory->define(User::class, function (Faker $faker) {
 
-    $name = $faker->word;
-    $lastName = $faker->word;
-
     return [
-        'name' => $name.' '.$lastName,
-        'email' => $name.'-'.$lastName.'@correo.dev',
+        'name' => $faker->name,
+        'email' => $faker->freeEmail,
         'password' => Hash::make('12345678'),
         'created_at' => $faker->date('Y-m-d H:i:s'),
         'updated_at' => $faker->date('Y-m-d H:i:s')
